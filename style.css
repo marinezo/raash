@@ -58,9 +58,8 @@ body {
   height: 15px;
   width: 300px;
  font-family: 'arial';
-  font-weight: bold;
   font-size: 30px;
-  color:  rgba(6, 71, 255, 1);
+  color: black;
 }
 
 .title-secondary {
@@ -68,9 +67,8 @@ body {
   height: 20px;
   width: 600px;
   font-family: "arial";
-  font-weight: bold;
   font-size: 20px;
-  color:  rgba(6, 71, 255, 1);
+  color: black;
 }
 
 /* matrix */
