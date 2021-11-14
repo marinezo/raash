@@ -97,10 +97,15 @@ body {
 
 .matrix {
   	position: inherit;
-  	padding-top: 25px;
-  	padding-left: 25px;
     width: 20vw;
     height:20vh;
+align-content: center;
+margin:0 auto;
+	width: 94vw;
+	height: 80vh;
+	max-height: 900px;
+	max-width: 830px;
+  overflow: hidden;
 
   }
 
