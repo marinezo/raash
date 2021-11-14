@@ -185,13 +185,14 @@ body {
     height: 70%; /* Full height */
     width: 70%; /* Full width */
     transition: .2s;
+    margin:0 auto;
     }
 
     .modal-content {
       position:relative;
       margin: 0 auto;
-      width: 94vw;
-      height: 83vh;
+      width: 70%;
+      height: 70%;
       overflow: auto;
       align-content: center;
       border solid;
@@ -215,30 +216,5 @@ body {
 
     .header-modal {
       height: 80px;
-      display: grid;
-      grid-template-columns: 90px 670px 30px;
     }
-
-    .modal-title {
-      padding-top: 10px;
-      color: black;
-      font-family: 'arial';
-      font-size: 17px;
-    }
-
-      .modal-icon {
-        margin: auto;
-        left: 0;
-        width: 70px;
-        height:70px;
-        }
-	.side {
-          width: 40px;
-          height: 40px;
-          margin-top: 10px;
-        }
-	.modal-icon-prdct {
-		padding-bottom: 150px;
-}
-
 
