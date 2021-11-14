@@ -5,24 +5,18 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 
 <script>
-/*audio
   function play(element){
    var audio = document.getElementById(element);
    audio.play();
    sound.pause();
     sound.currentTime = 0;
              }
-  */
-  
-  document.addEventListener('play', function(e){
-    var audios = document.getElementsById('audio');
-    for(var i = 0, len = audios.length; i < len;i++){
-        if(audios[i] != e.target){
-            audios[i].pause();
-        }
+  document.addEventListener("play", function(evt) {
+    if(this.$AudioPlaying && this.$AudioPlaying !== evt.target) {
+        this.$AudioPlaying.pause();
     }
+    this.$AudioPlaying = evt.target;
 }, true);
-  
 </script>
 </head>
 
