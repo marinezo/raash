@@ -16,6 +16,7 @@ body {
   padding-right: 3vh;
   max-width: 835px;
   background : white;
+  border: none;
 }
 
 .btnCont {
@@ -33,18 +34,9 @@ body {
   font-family: "arial";
   text-align: center;
   cursor: pointer;
+  background: white;
+	
   }
-
-  .help {
-    width: 25px;
-  	height: 25px;
-  }
-
-  .about {
-    width: 55px;
-    height: 25px;
-  }
-
  
 .ppp {
   font-size: 13px;
@@ -121,7 +113,7 @@ body {
 
 
 .match {
-    background : white;
+    background: white;
     color: black;
     cursor: pointer;
     /*transition: .2s;*/
