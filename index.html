@@ -5,13 +5,24 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 
 <script>
-//audio
+/*audio
   function play(element){
    var audio = document.getElementById(element);
    audio.play();
    sound.pause();
     sound.currentTime = 0;
              }
+  */
+  
+  document.addEventListener('play', function(e){
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+            audios[i].pause();
+        }
+    }
+}, true);
+  
 </script>
 </head>
 
@@ -29,7 +40,7 @@
       <//matrix>
         <div class="container">
           <div class="item match">
-              <input class="item match play" type="button" value="1"  onclick="play('audio1')">
+              <input class="item match play" type="button" value="1" onclick="play('audio1')">
               <button onclick="document.getElementById('id01').style.display='block'" class="myBtn">&#8627</button>
           </div>
           <div class="item match">
