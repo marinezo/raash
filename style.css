@@ -104,6 +104,7 @@ body {
   margin:0 auto;
   overflow: hidden;
   display: flex;
+  flex-wrap: wrap;
   border: solid;
   border-color: black;
   border-width: 1px;
