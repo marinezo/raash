@@ -135,11 +135,11 @@ body {
     border-color: transparent;
     cursor: pointer;
     color: black;
-    font-size: 12px;
+    font-size: 18px;
     }
 
 .play:hover {
-    font-size: 16px;
+    font-size: 20px;
 
 }  
 
@@ -154,13 +154,13 @@ body {
       border-width: 1px;
       color: black;
       font-family: arial;
-      font-size: 12px;
+      font-size: 18px;
       cursor: pointer;
     }
 
 
     .myBtn:hover {
-    font-size: 16px;
+    font-size: 20px;
     }
 
 
