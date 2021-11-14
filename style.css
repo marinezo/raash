@@ -39,16 +39,9 @@ body {
   cursor: pointer;
   }
 
-  .Btn:hover {
-    color: rgba(255, 255, 255, 1);
-    background:  rgba(6, 71, 255, 1);
+
   }
-  .Btn:focus {
-    color: rgba255, 255, 255, 1)
-    background:  rgba(6, 71, 255, 1);
-    opacity: .8;
-    outline: 0 none;
-  }
+  
 
   .instrc {
     width: 25px;
@@ -60,14 +53,7 @@ body {
   	height: 25px;
   }
 
-  .prdct {
-
-  }
-
-  .link {
-
-  }
-
+ 
 .ppp {
   font-size: 13px;
   font-family: "arial";
