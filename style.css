@@ -72,6 +72,8 @@ body {
 }
 
 /* matrix */
+
+/*
 .border {
   align-content: center;
   margin:0 auto;
@@ -91,28 +93,25 @@ body {
 	margin-top: .5vh;
   	overflow: auto;
 }
-
+*/
 
   /* pads */
-
 .matrix {
-  	position: inherit;
-    width: 20vw;
-    height:20vh;
-align-content: center;
-margin:0 auto;
-	width: 94vw;
-	height: 80vh;
-	max-height: 900px;
-	max-width: 830px;
-  overflow: hidden;
+  	
 
   }
 
 .container {
-  width: 690px;
-  height: 117px;
+  position: inherit;
+  width: 20vw;
+  height:20vh;
+  align-content: center;
+  margin:0 auto;
+  overflow: hidden;
   display: flex;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
   }
 
 .item {
