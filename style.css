@@ -133,7 +133,7 @@ body {
     }
 
 .play:hover {
-      font-size: 14px;
+  opacity: 0.7;
 
 }  
 
@@ -154,7 +154,7 @@ body {
 
 
     .myBtn:hover {
-      font-size: 14px;
+  opacity: 0.7;
     }
 
 
