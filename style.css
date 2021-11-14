@@ -116,11 +116,11 @@ margin:0 auto;
   }
 
 .item {
-  background-size: 8.49px 8.49px;
+  background-size: 30px 30px;
   width: 100px;
   height: 100px;
   border: solid;
-  border-color:  black;
+  border-color: black;
   border-width: 1px;
   background:  white;
   position: inherit;
@@ -136,33 +136,12 @@ margin:0 auto;
   }
 
 
-/*.b-semi {
-    background: rgba(6, 71, 255, .6);
-    color: rgba(6, 71, 255, .9);
-    cursor: pointer;
-    transition: .2s;
-    }
-
-  .b-semi:hover {
-    background   rgba(6, 71, 255, .5);
-  }
-
-  .semiplay {
-    color rgba(6, 71, 255, 1);
-      -webkit-text-stroke 1px rgba(6, 71, 255, 1);
-  }
-
-  .btnsemi {
-    color: black;
-  }
-  */
-
 .play {
     padding-top: 60px;
     text-align: left;
     width: 100px;
     height:75px;
-    background : transparent;
+    background : black;
     border-color: transparent;
     cursor: pointer;
     color: black;
