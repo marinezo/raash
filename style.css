@@ -228,7 +228,7 @@ body {
       align-content: center;
       border solid;
       border-width: 1px;
-      border-color: rgba255, 255, 255, 1)
+      border-color: black;
       border-radius: 20px;
       }
 
@@ -236,17 +236,17 @@ body {
     .close {
       width: 20px;
       height: 20px;
-      color: #ffffff;
+      color: black;
       float: right;
       font-size: 30px;
-      font-family: 'Raleway', sans-serif;
+      font-family: 'arial';
       cursor: pointer;
     }
       .close:hover,
       .close:focus {
         text-decoration: none;
     		outline: 0 none;
-        color:  rgba(6, 71, 255, 1);
+        color:  black;
     	 }
 
     .header-modal {
@@ -257,8 +257,8 @@ body {
 
     .modal-title {
       padding-top: 10px;
-      color: rgba(255, 255, 255, 1);
-	font-family: 'Raleway', sans-serif;
+      color: black;
+	font-family: 'arial';
       font-size: 17px;
     }
 
