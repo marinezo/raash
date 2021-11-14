@@ -96,15 +96,10 @@ body {
 */
 
   /* pads */
-.matrix {
-  	
-
-  }
 
 .container {
   position: inherit;
-  width: 20vw;
-  height:20vh;
+  width: 10vw;
   align-content: center;
   margin:0 auto;
   overflow: hidden;
