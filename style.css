@@ -15,7 +15,7 @@ body {
   padding-bottom: 10px;
   padding-right: 3vh;
   max-width: 835px;
-  background : rgba255, 255, 255, 1)
+  background : white;
 }
 
 .btnCont {
@@ -30,9 +30,8 @@ body {
   margin-left: 3px;
   background : rgba(255, 255, 255, 1);
   border: solid;
-  border-color:  rgba(6, 71, 255, 1);
+  border-color:  black;
   border-width: 1px;
-  border-radius: 20px;
   color:  rgba(6, 71, 255, 1);
   font-size: 13px;
   font-family: "arial";
@@ -71,7 +70,7 @@ body {
 
 .ppp {
   font-size: 13px;
-  font-family: "source sans pro";
+  font-family: "arial";
   text-align: center;
   margin-top: 5px;
   }
@@ -80,7 +79,7 @@ body {
   margin: 10;
   height: 15px;
   width: 300px;
- font-family: 'Raleway', sans-serif;
+ font-family: 'arial';
   font-weight: bold;
   font-size: 30px;
   color:  rgba(6, 71, 255, 1);
@@ -90,7 +89,7 @@ body {
   margin: 10;
   height: 20px;
   width: 600px;
-  font-family: "baskerville-semibold";
+  font-family: "arial";
   font-weight: bold;
   font-size: 20px;
   color:  rgba(6, 71, 255, 1);
@@ -105,8 +104,7 @@ body {
 	max-height: 900px;
 	max-width: 830px;
   border: solid;
-	border-color:  rgba(6, 71, 255, 1);
-	border-radius: 20px;
+	border-color:  black;
 	border-width: 1px;
   overflow: hidden;
 }
@@ -116,7 +114,6 @@ body {
 	height: 80vh;
 	max-height: 900px;
 	max-width: 830px;
- 	 border-color:  rgba(6, 71, 255, 1);
 	display: grid;
 	grid-template-columns: 100px 700px;
 	margin-top: .5vh;
@@ -164,61 +161,6 @@ body {
 	height:85px;
   }
 
-  .pitch {
-    background-image: url('img/final-icons/icon-pitch.svg');
-    }
-
-    .pitch:hover{
-      background-image: url('img/final-icons/text/icon-pitch.svg');
-      background-repeat: no-repeat;
-      transition: .2s;
-    }
-
-  .gran {
-    background-image: url('img/final-icons/icon-gran.svg');
-  }
-    .gran:hover {
-      background-image: url('img/final-icons/text/icon-gran.svg');
-      background-repeat: no-repeat;
-      transition: .2s;
-    }
-
-  .diat {
-    background-image: url('img/final-icons/icon-scale-diat.svg');
-  }
-    .diat:hover {
-      background-image: url('img/final-icons/text/icon-scale-diat.svg');
-      background-repeat: no-repeat;
-      transition: .2s;
-    }
-
-  .chrom {
-    background-image: url('img/final-icons/icon-scale-chrom.svg');
-    }
-    .chrom:hover {
-      background-image: url('img/final-icons/text/icon-scale-chrom.svg');
-      background-repeat: no-repeat;
-      transition: .2s;
-    }
-  .chord{
-    background-image: url('img/final-icons/icon-chord.svg');
-    }
-
-    .chord:hover {
-      background-image: url('img/final-icons/text/icon-chord.svg');
-      background-repeat: no-repeat;
-      transition: .2s;
-    }
-
-  .gate{
-    background-image: url('img/final-icons/icon-gate.svg');
-  }
-  .gate:hover {
-    background-image: url('img/final-icons/text/icon-gate.svg');
-    background-repeat: no-repeat;
-    transition: .2s;
-  }
-
 
 /* top */
 .top-bar {
@@ -254,7 +196,7 @@ body {
 
 .p {
   font-size: 11px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'arial';
 font-weight: bold;
   color:  rgba(6, 71, 255, 1);
   text-align: center;
@@ -281,8 +223,6 @@ font-weight: bold;
   }
 
 .box {
-  background-image url('img/ELEMENTs/BG.svg');
-  background-image: linear-gradient(45deg, #596bf2 8.33%, #ffffff 8.33%, #ffffff 50%, #596bf2 50%, #596bf2 58.33%, #ffffff 58.33%, #ffffff 100%);
   background-size: 8.49px 8.49px;
   width: 100px;
   height: 100px;
