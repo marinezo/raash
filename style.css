@@ -42,7 +42,7 @@ body {
 
   .about {
     width: 55px;
-  	height: 25px;
+    height: 25px;
   }
 
  
@@ -98,7 +98,7 @@ body {
   /* pads */
 
 .container {
-  width: 50vw;
+  width: 750px;
   align-content: center;
   margin:0 auto;
   display: flex;
