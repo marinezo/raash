@@ -98,12 +98,9 @@ body {
   /* pads */
 
 .container {
-  position: inherit;
   width: 50vw;
-  height: 70vh;
   align-content: center;
   margin:0 auto;
-  overflow: hidden;
   display: flex;
   flex-wrap: wrap;
   border: solid;
@@ -140,6 +137,7 @@ body {
     border-color: transparent;
     cursor: pointer;
     color: black;
+    font-size: 12px;
     }
 
   
@@ -148,7 +146,7 @@ body {
       margin-bottom: 5px;
       text-align: center;
       height: 20px;
-	width: 100px;
+      width: 100px;
       background : transparent;
       border-color: transparent;
       border-style: Solid;
