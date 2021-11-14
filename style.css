@@ -173,6 +173,10 @@ body {
 
 /*modals*/
   .modal {
+    background: white;
+    border-style: Solid;
+    border-width: 2px;
+    border-color: black;
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 3; /* Sit on top */
@@ -220,7 +224,7 @@ body {
     .modal-title {
       padding-top: 10px;
       color: black;
-	font-family: 'arial';
+      font-family: 'arial';
       font-size: 17px;
     }
 
