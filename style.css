@@ -109,6 +109,7 @@ body {
   background:  white;
   position: inherit;
   text-align: center;
+  -webkit-appearance: none;
   }
 
 
@@ -116,11 +117,13 @@ body {
     background: white;
     color: black;
     cursor: pointer;
+    -webkit-appearance: none;
     /*transition: .2s;*/
   }
 
 
 .play {
+    -webkit-appearance: none;
     padding-top: 10px;
     text-align: center;
     width: 150px;
