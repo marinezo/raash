@@ -109,8 +109,8 @@ body {
   }
 
 .item {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border: solid;
   border-color: black;
   border-width: 1px;
@@ -131,8 +131,8 @@ body {
 .play {
     padding-top: 10px;
     text-align: center;
-    width: 100px;
-    height:75px;
+    width: 150px;
+    height:100px;
     background : white;
     border-color: transparent;
     cursor: pointer;
@@ -145,8 +145,8 @@ body {
 .myBtn {
       margin-bottom: 5px;
       text-align: center;
-      height: 20px;
-      width: 100px;
+      height: 50px;
+      width: 150px;
       background : transparent;
       border-color: transparent;
       border-style: Solid;
