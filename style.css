@@ -10,7 +10,7 @@ body {
   position: relative;
   margin: auto;
   display: grid;
-	grid-template-columns: 75% 25%;
+  grid-template-columns: 75% 25%;
   height: 80px;
   padding-bottom: 10px;
   padding-right: 3vh;
@@ -87,15 +87,10 @@ body {
 	height: 80vh;
 	max-height: 900px;
 	max-width: 830px;
-	display: grid;
-	grid-template-columns: 100px 700px;
+	display: flex;
 	margin-top: .5vh;
   	overflow: auto;
-
 }
-
-
-
 
 
   /* pads */
@@ -127,20 +122,14 @@ body {
   text-align: center;
   }
 
- .box:hover {
-   background-image url('img/ELEMENTs/BG-thin.svg');
-  }
 
 .match {
-    background :  rgba(6, 71, 255, 1);
-    color: rgba(95, 237, 163, 1);
+    background : white;
+    color: black;
     cursor: pointer;
-    transition: .2s;
+    /*transition: .2s;*/
   }
 
-  .match:hover {
-    background :  rgba(6, 71, 255, .9);
-  }
 
 /*.b-semi {
     background: rgba(6, 71, 255, .6);
