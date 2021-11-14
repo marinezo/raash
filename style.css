@@ -182,19 +182,16 @@ body {
     z-index: 3; /* Sit on top */
     left: 0;
     TOP: 50px;
-    height: 100%; /* Full height */
-    width: 100%; /* Full width */
+    height: 70%; /* Full height */
+    width: 70%; /* Full width */
     transition: .2s;
     }
 
     .modal-content {
       position:relative;
       margin: 0 auto;
-      margin-top: 60px;
       width: 94vw;
       height: 83vh;
-      max-width: 800px;
-      max-height: 620px;
       overflow: auto;
       align-content: center;
       border solid;
@@ -205,6 +202,7 @@ body {
 
     /* The Close Button */
     .close {
+      margin-right: 20px;
       width: 20px;
       height: 20px;
       color: black;
