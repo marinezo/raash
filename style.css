@@ -140,7 +140,10 @@ body {
     font-size: 12px;
     }
 
-  
+.play:hover {
+      font-size: 14px;
+
+}  
 
 .myBtn {
       margin-bottom: 5px;
@@ -159,8 +162,7 @@ body {
 
 
     .myBtn:hover {
-    text-decoration: underline;
-      background : transparent;
+      font-size: 14px;
     }
 
 
