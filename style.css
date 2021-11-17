@@ -106,9 +106,6 @@ body {
 .item {
   width: 150px;
   height: 150px;
-  border: solid;
-  border-color: black;
-  border-width: 1px;
   background:  white;
   position: inherit;
   text-align: center;
