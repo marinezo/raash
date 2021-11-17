@@ -1,0 +1,120 @@
+<html>
+<head>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script>
+  function play(element){
+   var audio = document.getElementById(element);
+   audio.play();
+   sound.pause();
+    sound.currentTime = 0;
+             }
+  
+  document.addEventListener("play", function(evt) {
+    if(this.$AudioPlaying && this.$AudioPlaying !== evt.target) {
+        this.$AudioPlaying.pause();
+    }
+    this.$AudioPlaying = evt.target;
+}, true);
+</script>
+</head>
+
+<body>
+<//header>
+<section class="header">
+    <p class="title">All is Heard</div><div></div>
+      <p class="title-secondary">Click on the box to play</div>
+        <div class="btnCont">
+         <button onclick="document.getElementById('id01').style.display='block'" class="Btn about">about</button>
+        </div>
+    </section>
+
+  
+      <//matrix>
+        <div class="container">
+          <div class="item match">
+              <input class="item match play" type="button" value="1" onclick="play('audio1')">
+          </div>
+          <div class="item match">
+              <input class="item match play" type="button" value="2"  onclick="play('audio1')">
+          </div>
+          <div class="item match">
+            <input class="item match play" type="button" value="3"  onclick="play('audio1')">
+          </div>
+          <div class="item match">
+              <input class="item match play" type="button" value="4"  onclick="play('audio2')">
+          </div>
+          <div class="item match">
+            <input class="item match play" type="button" value="5"  onclick="play('audio2')">
+          </div>
+            <div class="item match">
+            <input class="item match play" type="button" value="6"  onclick="play('audio2')">
+          </div>
+            <div class="item match">
+            <input class="item match play" type="button" value="7"  onclick="play('audio2')">
+          </div>
+            <div class="item match">
+            <input class="item match play" type="button" value="8"  onclick="play('audio2')">
+          </div>
+            <div class="item match">
+            <input class="item match play" type="button" value="9"  onclick="play('audio2')">
+          </div>
+            <div class="item match">
+            <input class="item match play" type="button" value="10"  onclick="play('audio2')">
+          </div>
+            <div class="item match">
+            <input class="item match play" type="button" value="11"  onclick="play('audio2')">
+          </div>
+            <div class="item match">
+            <input class="item match play" type="button" value="12"  onclick="play('audio2')">
+          </div>
+            <div class="item match">
+            <input class="item match play" type="button" value="13"  onclick="play('audio2')">
+          </div>
+            <div class="item match">
+            <input class="item match play" type="button" value="14"  onclick="play('audio2')">
+          </div>
+            <div class="item match">
+            <input class="item match play" type="button" value="15"  onclick="play('audio2')">
+          </div>
+            <div class="item match">
+            <input class="item match play" type="button" value="16"  onclick="play('audio2')">
+          </div>
+        </div>
+
+
+      <//audio>
+       <audio id="audio1" src="ZOOM0001.WAV" ></audio>
+       <audio id="audio2" src="ZOOM0002.WAV" ></audio>
+       <audio id="audio3" src="ZOOM0003.WAV" ></audio>
+       <audio id="audio4" src="snd/04_chrom.aifc" ></audio>
+       <audio id="audio5" src="snd/05_chord1.aif" ></audio>
+       <audio id="audio6" src="snd/06_cutoff.aifc" ></audio>
+
+
+
+   <//pop-ups>
+  <div id="id01" class="modal">
+       <div class="modal-content">
+
+         <header class="header-modal">
+             <span onclick="document.getElementById('id01').style.display='none'" class="close">&times;</span>
+         </header>
+
+         <div class="mid-modal">
+             <div>
+             <img class="modal-icon side" src="img/final-icons/modal/icon-sound.svg" />
+              <p>sound: pitch change<br>
+               pitch change is a sound variation in which the of a sound is raised or lowered. Pitch of pre-recorded audio samples may be shifted applying transposition.</p>
+           </div>
+      </div>
+     </div>
+   </div>
+
+  </section>
+
+<div class="header"><p class="title-secondary">by Marine Zorea, 2021</p></div>
+</body>
+</html>
