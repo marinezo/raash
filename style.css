@@ -90,7 +90,7 @@ body {
   /* pads */
 
 .container {
-  width: 760px;
+  width: 1208px;
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
