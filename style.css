@@ -101,7 +101,7 @@ body {
 
 .item {
   border: solid;
-  border-color: black;
+  border-color: red;
   border-width: 1px;
   width: 100px;
   height: 100px;
