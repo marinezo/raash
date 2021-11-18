@@ -12,7 +12,7 @@ body {
   grid-template-columns: 75% 25%;
   height: 80px;
   padding-bottom: 10px;
-  padding-left: 30px;
+  padding-left: 0px;
   max-width: 835px;
   background : white;
   border: none;
