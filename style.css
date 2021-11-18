@@ -8,7 +8,6 @@ body {
 /*header*/
 .header {
   position: relative;
-  margin: auto;
   display: grid;
   grid-template-columns: 75% 25%;
   height: 80px;
