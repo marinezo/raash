@@ -7,7 +7,7 @@ body {
 
 /*header*/
 .header {
-  position: relative;
+  margin-right: 0;
   display: grid;
   grid-template-columns: 75% 25%;
   height: 80px;
@@ -97,12 +97,12 @@ body {
   margin:0 auto;
   display: flex;
   flex-wrap: wrap;
-  border: solid;
-  border-color: black;
-  border-width: 1px;
   }
 
 .item {
+  border: solid;
+  border-color: black;
+  border-width: 1px;
   width: 150px;
   height: 150px;
   background:  white;
